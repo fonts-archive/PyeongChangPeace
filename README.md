@@ -36,7 +36,9 @@ font-face
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/PyeongChangPeace/PyeongChangPeace-Regular.otf') format('opentype'),
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/PyeongChangPeace/PyeongChangPeace-Regular.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/PyeongChangPeace/PyeongChangPeace-Regular.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/PyeongChangPeace/PyeongChangPeace-Regular.otf') format('opentype'),
          url('https://cdn.jsdelivr.net/gh/fonts-archive/PyeongChangPeace/PyeongChangPeace-Regular.ttf') format('truetype');
 }
 @font-face {
@@ -44,7 +46,9 @@ font-face
     font-weight: 700;
     font-style: normal;
     font-display: swap;
-    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/PyeongChangPeace/PyeongChangPeace-Bold.otf') format('opentype'),
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/PyeongChangPeace/PyeongChangPeace-Bold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/PyeongChangPeace/PyeongChangPeace-Bold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/PyeongChangPeace/PyeongChangPeace-Bold.otf') format('opentype'),
          url('https://cdn.jsdelivr.net/gh/fonts-archive/PyeongChangPeace/PyeongChangPeace-Bold.ttf') format('truetype');
 }
 ```
